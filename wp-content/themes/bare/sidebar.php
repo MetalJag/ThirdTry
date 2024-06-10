@@ -1,16 +1,9 @@
 <div id="sideBar1">
 <ul>
-<?php
-/**
- * The Sidebar containing the primary and secondary widget areas.
- *
- * @package WordPress
- * @subpackage Bare 
- * @since Bare 1.0
- */
-if ( function_exists ( dynamic_sidebar(1) ) ) : 
- dynamic_sidebar (1); 
-endif; 
-?>
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function dynamic_sidebar() in C:\xampp\htdocs\ThirdTry\wp-content\themes\bare\sidebar.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\ThirdTry\wp-content\themes\bare\sidebar.php</b> on line <b>11</b><br>
 </ul>
 </div>
